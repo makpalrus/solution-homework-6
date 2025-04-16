@@ -1,7 +1,10 @@
 package part2;
 
-public class Main {
+public class SmartHomeApp {
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        Light light = new Light();
+        Thermostat thermostat = new Thermostat();
+
+
     }
 }
