@@ -9,11 +9,13 @@ public class TurnOnLightCommand implements Command {
 
     @Override
     public void execute() {
+        Logger.log("Executing TurnOnLightCommand");
         light.turnOn();
     }
 
     @Override
     public void undo() {
+        Logger.log("Undoing TurnOnLightCommand");
         light.turnOff();
     }
 }

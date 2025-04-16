@@ -15,4 +15,8 @@ class Thermostat {
         System.out.println("[Thermostat] Reverting to previous temperature: " + prevTemperature + "°C");
         temperature = prevTemperature;
     }
+
+    public int getTemperature() {
+        return temperature;
+    }
 }
